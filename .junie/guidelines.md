@@ -1,6 +1,6 @@
 # Project Guidelines
 
-# Framework: Koog
+# Framework: Koog (https://github.com/JetBrains/koog)
 Koog is a Kotlin-based framework designed to build and run AI agents entirely in idiomatic Kotlin. It lets you create agents that can interact with tools, handle complex workflows, and communicate with users.
 
 # Project Structure
