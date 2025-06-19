@@ -1,0 +1,14 @@
+# YouTrack Workflow Generator Agent dependencies
+
+# Core dependencies
+requests>=2.28.0
+typing-extensions>=4.4.0
+
+# JetBrains Grazie API
+# No specific package required, using requests for API calls
+
+# Command line interface
+argparse>=1.4.0
+
+# File handling
+pathlib>=1.0.1
