@@ -1,8 +1,8 @@
 # Agent Overview
 Goal: Code generation of youtrack workflow scripts by user prompt.
 
-# Framework: Koog (https://github.com/JetBrains/koog)
-Koog is a Kotlin-based framework designed to build and run AI agents entirely in idiomatic Kotlin. It lets you create agents that can interact with tools, handle complex workflows, and communicate with users.
+# Framework: LangChain
+LangChain is a framework for building applications powered by language models. It provides tools to create agents that can interact with users, execute tasks, and manage workflows.
 
 # YouTrack Scripting API
 The library `youtrack-scripting-api` provides a set of APIs to interact with YouTrack's scripting capabilities, allowing users to automate tasks and extend YouTrack's functionality.
