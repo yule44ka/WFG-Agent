@@ -1,3 +1,3 @@
-.env
+src/main/kotlin/ai/koog/agents/youtrack/.env
 .idea
 packages

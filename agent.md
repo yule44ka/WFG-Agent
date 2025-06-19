@@ -11,16 +11,14 @@ The library `youtrack-scripting-api` provides a set of APIs to interact with You
 1. `bash` - Execute Bash commands.
 2. `llm request` - Interact with a large language model (LLM) for generating text or code.
 3. `search code in youtrack-scripting-api library file` - Search for code snippets in the `youtrack-scripting-api` package.
-4. `retrieve code shots from database` - Retrieve code shots from the database.
-5. `generate code` - Generate code based on the user's request.
+4. `generate code` - Generate code based on the user's request.
 
 # Actions
 1.`ask clarification` - Ask the user for clarification on their request.
-2.`test code` - Test the generated code to ensure it works as expected.
 
 # Observations
-1. `get feedback` - Get feedback from the user.
-2. `get test results` - Retrieve the results of the code tests to verify correctness.
+1. `get user prompt` - Get user request for a desired workflow script.
+2. `get feedback` - Get feedback from the user.
 
 # Strategy
 1. `cot` - Use chain-of-thought reasoning to break down the problem into smaller steps.
@@ -30,10 +28,9 @@ The library `youtrack-scripting-api` provides a set of APIs to interact with You
 We can use memory to store information about the user's requests, preferences, and previous interactions. This allows the agent to provide more personalized responses and improve its performance over time.
 
 # Agent Workflow
-User prompt -> CoT -> Ask questions ->
+Get user prompt -> CoT -> Ask questions ->
                                 -> User -> 
-                                        -> Plan -> Tools calling -> 
-                                                        -> Testing subgraph -> Return code
+                                        -> Plan -> Tools calling -> Return code
 
 # Resources
 1. https://huyenchip.com/2025/01/07/agents.html - A comprehensive guide on AI agents and their applications.
