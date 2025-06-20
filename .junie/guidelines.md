@@ -1,12 +1,7 @@
 # Project Guidelines
 
-# Framework: Koog (https://github.com/JetBrains/koog)
-Koog is a Kotlin-based framework designed to build and run AI agents entirely in idiomatic Kotlin. It lets you create agents that can interact with tools, handle complex workflows, and communicate with users.
-
 # Project Structure
 In the directory `packages/youtrack-scripring-api`, you will find files of youtrack-scripting-api library.
-Use this library to create scripts that can be executed in YouTrack.
-`agent.md` is the main file that contains the agent's logic and tools.
 
 # YouTrack Scripting API
 The library `youtrack-scripting-api` provides a set of APIs to interact with YouTrack's scripting capabilities, allowing users to automate tasks and extend YouTrack's functionality.
